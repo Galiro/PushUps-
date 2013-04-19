@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230D1B2915EC19D1003A6351 /* pushUpSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 230D1B2815EC19D1003A6351 /* pushUpSmall.png */; };
+		230D1B2C15EC1A10003A6351 /* pushUpBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 230D1B2B15EC1A10003A6351 /* pushUpBig.png */; };
+		230D1B2E15EC1E53003A6351 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 230D1B2D15EC1E53003A6351 /* Default.png */; };
+		230D1B3015EC1F4D003A6351 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 230D1B2F15EC1F4D003A6351 /* Default@2x.png */; };
+		230DCF1A15D1A2BF008CF3E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230DCF1915D1A2BF008CF3E2 /* UIKit.framework */; };
+		230DCF1C15D1A2BF008CF3E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230DCF1B15D1A2BF008CF3E2 /* Foundation.framework */; };
+		230DCF1E15D1A2BF008CF3E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230DCF1D15D1A2BF008CF3E2 /* CoreGraphics.framework */; };
+		230DCF2415D1A2BF008CF3E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230DCF2215D1A2BF008CF3E2 /* InfoPlist.strings */; };
+		230DCF2615D1A2BF008CF3E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 230DCF2515D1A2BF008CF3E2 /* main.m */; };
+		230DCF2A15D1A2BF008CF3E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230DCF2915D1A2BF008CF3E2 /* AppDelegate.m */; };
+		230DCF2D15D1A2BF008CF3E2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230DCF2B15D1A2BF008CF3E2 /* MainStoryboard.storyboard */; };
+		230DCF3015D1A2BF008CF3E2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230DCF2F15D1A2BF008CF3E2 /* FirstViewController.m */; };
+		230DCF3215D1A2BF008CF3E2 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 230DCF3115D1A2BF008CF3E2 /* first.png */; };
+		230DCF3415D1A2BF008CF3E2 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 230DCF3315D1A2BF008CF3E2 /* first@2x.png */; };
+		230DCF3715D1A2BF008CF3E2 /* KissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230DCF3615D1A2BF008CF3E2 /* KissViewController.m */; };
+		230DCF3915D1A2BF008CF3E2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 230DCF3815D1A2BF008CF3E2 /* second.png */; };
+		230DCF3B15D1A2BF008CF3E2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 230DCF3A15D1A2BF008CF3E2 /* second@2x.png */; };
+		230DCF4315D1BE3C008CF3E2 /* PushUpsViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230DCF4215D1BE3C008CF3E2 /* PushUpsViewControllerViewController.m */; };
+		230DCF4615D1C3E5008CF3E2 /* YourPushUpsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230DCF4515D1C3E5008CF3E2 /* YourPushUpsViewController.m */; };
+		230DCF4815D1C5D2008CF3E2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230DCF4715D1C5D2008CF3E2 /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		230D1B2815EC19D1003A6351 /* pushUpSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushUpSmall.png; sourceTree = "<group>"; };
+		230D1B2B15EC1A10003A6351 /* pushUpBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushUpBig.png; sourceTree = "<group>"; };
+		230D1B2D15EC1E53003A6351 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		230D1B2F15EC1F4D003A6351 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		230DCF1515D1A2BF008CF3E2 /* PushUps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushUps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		230DCF1915D1A2BF008CF3E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		230DCF1B15D1A2BF008CF3E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		230DCF1D15D1A2BF008CF3E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		230DCF2115D1A2BF008CF3E2 /* PushUps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushUps-Info.plist"; sourceTree = "<group>"; };
+		230DCF2315D1A2BF008CF3E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		230DCF2515D1A2BF008CF3E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		230DCF2715D1A2BF008CF3E2 /* PushUps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushUps-Prefix.pch"; sourceTree = "<group>"; };
+		230DCF2815D1A2BF008CF3E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		230DCF2915D1A2BF008CF3E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		230DCF2C15D1A2BF008CF3E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		230DCF2E15D1A2BF008CF3E2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		230DCF2F15D1A2BF008CF3E2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		230DCF3115D1A2BF008CF3E2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		230DCF3315D1A2BF008CF3E2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		230DCF3515D1A2BF008CF3E2 /* KissViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KissViewController.h; sourceTree = "<group>"; };
+		230DCF3615D1A2BF008CF3E2 /* KissViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KissViewController.m; sourceTree = "<group>"; };
+		230DCF3815D1A2BF008CF3E2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		230DCF3A15D1A2BF008CF3E2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		230DCF4115D1BE3C008CF3E2 /* PushUpsViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushUpsViewControllerViewController.h; sourceTree = "<group>"; };
+		230DCF4215D1BE3C008CF3E2 /* PushUpsViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushUpsViewControllerViewController.m; sourceTree = "<group>"; };
+		230DCF4415D1C3E5008CF3E2 /* YourPushUpsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourPushUpsViewController.h; sourceTree = "<group>"; };
+		230DCF4515D1C3E5008CF3E2 /* YourPushUpsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourPushUpsViewController.m; sourceTree = "<group>"; };
+		230DCF4715D1C5D2008CF3E2 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230DCF1215D1A2BF008CF3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230DCF4815D1C5D2008CF3E2 /* Twitter.framework in Frameworks */,
+				230DCF1A15D1A2BF008CF3E2 /* UIKit.framework in Frameworks */,
+				230DCF1C15D1A2BF008CF3E2 /* Foundation.framework in Frameworks */,
+				230DCF1E15D1A2BF008CF3E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230DCF0A15D1A2BF008CF3E2 = {
+			isa = PBXGroup;
+			children = (
+				230D1B2F15EC1F4D003A6351 /* Default@2x.png */,
+				230D1B2D15EC1E53003A6351 /* Default.png */,
+				230D1B2B15EC1A10003A6351 /* pushUpBig.png */,
+				230D1B2815EC19D1003A6351 /* pushUpSmall.png */,
+				230DCF4715D1C5D2008CF3E2 /* Twitter.framework */,
+				230DCF1F15D1A2BF008CF3E2 /* PushUps */,
+				230DCF1815D1A2BF008CF3E2 /* Frameworks */,
+				230DCF1615D1A2BF008CF3E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		230DCF1615D1A2BF008CF3E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230DCF1515D1A2BF008CF3E2 /* PushUps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		230DCF1815D1A2BF008CF3E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				230DCF1915D1A2BF008CF3E2 /* UIKit.framework */,
+				230DCF1B15D1A2BF008CF3E2 /* Foundation.framework */,
+				230DCF1D15D1A2BF008CF3E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230DCF1F15D1A2BF008CF3E2 /* PushUps */ = {
+			isa = PBXGroup;
+			children = (
+				230DCF2815D1A2BF008CF3E2 /* AppDelegate.h */,
+				230DCF2915D1A2BF008CF3E2 /* AppDelegate.m */,
+				230DCF2B15D1A2BF008CF3E2 /* MainStoryboard.storyboard */,
+				230DCF2E15D1A2BF008CF3E2 /* FirstViewController.h */,
+				230DCF2F15D1A2BF008CF3E2 /* FirstViewController.m */,
+				230DCF3515D1A2BF008CF3E2 /* KissViewController.h */,
+				230DCF3615D1A2BF008CF3E2 /* KissViewController.m */,
+				230DCF4115D1BE3C008CF3E2 /* PushUpsViewControllerViewController.h */,
+				230DCF4215D1BE3C008CF3E2 /* PushUpsViewControllerViewController.m */,
+				230DCF4415D1C3E5008CF3E2 /* YourPushUpsViewController.h */,
+				230DCF4515D1C3E5008CF3E2 /* YourPushUpsViewController.m */,
+				230DCF2015D1A2BF008CF3E2 /* Supporting Files */,
+			);
+			path = PushUps;
+			sourceTree = "<group>";
+		};
+		230DCF2015D1A2BF008CF3E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				230DCF3815D1A2BF008CF3E2 /* second.png */,
+				230DCF3315D1A2BF008CF3E2 /* first@2x.png */,
+				230DCF3115D1A2BF008CF3E2 /* first.png */,
+				230DCF3A15D1A2BF008CF3E2 /* second@2x.png */,
+				230DCF2115D1A2BF008CF3E2 /* PushUps-Info.plist */,
+				230DCF2215D1A2BF008CF3E2 /* InfoPlist.strings */,
+				230DCF2515D1A2BF008CF3E2 /* main.m */,
+				230DCF2715D1A2BF008CF3E2 /* PushUps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		230DCF1415D1A2BF008CF3E2 /* PushUps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230DCF3E15D1A2BF008CF3E2 /* Build configuration list for PBXNativeTarget "PushUps" */;
+			buildPhases = (
+				230DCF1115D1A2BF008CF3E2 /* Sources */,
+				230DCF1215D1A2BF008CF3E2 /* Frameworks */,
+				230DCF1315D1A2BF008CF3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushUps;
+			productName = PushUps;
+			productReference = 230DCF1515D1A2BF008CF3E2 /* PushUps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		230DCF0C15D1A2BF008CF3E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 230DCF0F15D1A2BF008CF3E2 /* Build configuration list for PBXProject "PushUps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 230DCF0A15D1A2BF008CF3E2;
+			productRefGroup = 230DCF1615D1A2BF008CF3E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230DCF1415D1A2BF008CF3E2 /* PushUps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230DCF1315D1A2BF008CF3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230DCF2415D1A2BF008CF3E2 /* InfoPlist.strings in Resources */,
+				230DCF2D15D1A2BF008CF3E2 /* MainStoryboard.storyboard in Resources */,
+				230DCF3215D1A2BF008CF3E2 /* first.png in Resources */,
+				230DCF3415D1A2BF008CF3E2 /* first@2x.png in Resources */,
+				230DCF3915D1A2BF008CF3E2 /* second.png in Resources */,
+				230DCF3B15D1A2BF008CF3E2 /* second@2x.png in Resources */,
+				230D1B2915EC19D1003A6351 /* pushUpSmall.png in Resources */,
+				230D1B2C15EC1A10003A6351 /* pushUpBig.png in Resources */,
+				230D1B2E15EC1E53003A6351 /* Default.png in Resources */,
+				230D1B3015EC1F4D003A6351 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230DCF1115D1A2BF008CF3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230DCF2615D1A2BF008CF3E2 /* main.m in Sources */,
+				230DCF2A15D1A2BF008CF3E2 /* AppDelegate.m in Sources */,
+				230DCF3015D1A2BF008CF3E2 /* FirstViewController.m in Sources */,
+				230DCF3715D1A2BF008CF3E2 /* KissViewController.m in Sources */,
+				230DCF4315D1BE3C008CF3E2 /* PushUpsViewControllerViewController.m in Sources */,
+				230DCF4615D1C3E5008CF3E2 /* YourPushUpsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		230DCF2215D1A2BF008CF3E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230DCF2315D1A2BF008CF3E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		230DCF2B15D1A2BF008CF3E2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230DCF2C15D1A2BF008CF3E2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		230DCF3C15D1A2BF008CF3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		230DCF3D15D1A2BF008CF3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		230DCF3F15D1A2BF008CF3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushUps/PushUps-Prefix.pch";
+				INFOPLIST_FILE = "PushUps/PushUps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		230DCF4015D1A2BF008CF3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushUps/PushUps-Prefix.pch";
+				INFOPLIST_FILE = "PushUps/PushUps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230DCF0F15D1A2BF008CF3E2 /* Build configuration list for PBXProject "PushUps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230DCF3C15D1A2BF008CF3E2 /* Debug */,
+				230DCF3D15D1A2BF008CF3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230DCF3E15D1A2BF008CF3E2 /* Build configuration list for PBXNativeTarget "PushUps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230DCF3F15D1A2BF008CF3E2 /* Debug */,
+				230DCF4015D1A2BF008CF3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 230DCF0C15D1A2BF008CF3E2 /* Project object */;
+}
